@@ -1,19 +1,5 @@
 import { styled } from "@stitches/react";
-
-const ButtonBase = styled("button", {
-  cursor: "pointer",
-  transition: "filter easy 0.2s",
-
-  "&:hover": {
-    filter: "brightness(0.95)",
-  },
-
-  "&:disabled": {
-    color: "$textPassive",
-    cursor: "not-allowed",
-    filter: "brightness(0.95)",
-  },
-});
+import { ButtonBase } from "../buttonBase";
 
 export const Container = styled(ButtonBase, {
   display: "inline-flex",
