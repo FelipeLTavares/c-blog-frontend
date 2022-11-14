@@ -10,7 +10,7 @@ export const Container = styled(ButtonBase, {
   height: "2.8rem",
   padding: "0 1rem",
   border: "none",
-  borderRadius: "0.6rem",
+  borderRadius: "0.8rem",
 
   fontSize: "1rem",
   fontWeight: 600,
