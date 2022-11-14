@@ -12,5 +12,6 @@ export const ButtonBase = styled("button", {
     color: "$textPassive",
     cursor: "not-allowed",
     filter: "brightness(0.95)",
+    opacity: 0.3,
   },
 });
